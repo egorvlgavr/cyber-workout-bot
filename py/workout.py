@@ -1,8 +1,15 @@
 import json
+import logging
 import os
 import random
 from abc import ABC
 from typing import List, Optional
+
+# Enable logging
+logging.basicConfig(
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
+)
+logger = logging.getLogger(__name__)
 
 
 class WorkoutDao(ABC):
@@ -14,9 +21,17 @@ class WorkoutDao(ABC):
 
 
 class FileWorkoutDao(WorkoutDao):
-    def __init__(self, file_path: str) -> None:
-        with open(file_path, 'r') as workoutsFile:
-            self.workouts = json.load(fp=workoutsFile)
+    def __init__(self, folder_path: str) -> None:
+        self.workouts = []
+        for file_name in ['legs_workouts.json', 'back_workouts.json',
+                          'shoulders_workouts.json', 'top_workouts.json']:
+            file_path = folder_path + "/" + file_name
+            with open(file_path, 'r') as workoutsFile:
+                from_file = json.load(fp=workoutsFile)
+                logger.info("[%d] workouts was loaded from file [%s]",
+                            len(from_file), file_path)
+                self.workouts.extend(from_file)
+        logger.info("Total workouts: [%d]", len(self.workouts))
 
     def get_base_exercise(self, train_type: str) -> Optional[dict]:
         base_workouts = list(
@@ -39,7 +54,7 @@ class FileWorkoutDao(WorkoutDao):
 
 TOTAL_BASE_WORKOUTS = 1
 TOTAL_ADDITIONAL_WORKOUTS = 1
-workout_dao = FileWorkoutDao(os.environ.get('DATA_PATH', 'data/workouts.json'))
+workout_dao = FileWorkoutDao(os.environ.get('DATA_PATH', 'data'))
 
 
 def create_training_plan(requested_workouts: List[str], num_of_workouts: int) -> List[str]:
