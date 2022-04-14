@@ -78,6 +78,14 @@ def echo(update: Update, context: CallbackContext) -> None:
     update.message.reply_text("Я могу помочь с программой упражнений.\n" + HELP_WITH_SUPPORTED_WORKOUTS)
 
 
+def error_handler(update: Update, context: CallbackContext) -> None:
+    """Log the error and send a telegram message to notify the developer."""
+    # Log the error before we do anything else, so we can see it even if something breaks.
+    logger.error(msg="Exception while handling an update:", exc_info=context.error)
+    # Finally, send the message
+    update.message.reply_text('Что-то пошло не так, обратитесь к админу бота :( ')
+
+
 def main() -> None:
     """Start the bot."""
     # Create the Updater and pass it your bot's token.
@@ -91,6 +99,7 @@ def main() -> None:
     dispatcher.add_handler(CommandHandler("help", help_command))
     dispatcher.add_handler(CommandHandler("workout", workout_plan_command))
     # Handle internal error
+    dispatcher.add_error_handler(error_handler)
 
     # on non command i.e message - echo the message on Telegram
     dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, echo))
