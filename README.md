@@ -5,7 +5,7 @@ Telegram bot for workout plans
  - Additional exercises
 
 # How to run
-Python 3.8+ is required. 
+Python 3.11 is required. 
 
 All dependencies are placed in requirements.txt
 
