@@ -1,0 +1,76 @@
+[
+  {
+    "type": "isolated",
+    "group": "плечи",
+    "description": "Жим Арнольда 4x12",
+    "order": 1,
+    "workout_sets": [],
+    "for_home": true
+  },
+  {
+    "type": "isolated",
+    "group": "плечи",
+    "description": " Армейский жим 4x10",
+    "order": 1,
+    "workout_sets": []
+  },
+  {
+    "type": "isolated",
+    "group": "плечи",
+    "description": "Тяга к подбородку 4x12",
+    "order": 1,
+    "workout_sets": []
+  },
+  {
+    "type": "isolated",
+    "group": "плечи",
+    "description": "Блин перед собой 4x12",
+    "order": 1,
+    "workout_sets": [],
+    "for_home": true
+  },
+  {
+    "type": "isolated",
+    "group": "плечи",
+    "description": "Жим гантелей 4x12",
+    "order": 1,
+    "workout_sets": [],
+    "for_home": true
+  },
+  {
+    "type": "isolated",
+    "group": "плечи",
+    "description": "Средняя в тренажере 4x12",
+    "order": 1,
+    "workout_sets": []
+  },
+  {
+    "type": "isolated",
+    "group": "плечи",
+    "description": "Задняя в бабочке 4x12",
+    "order": 1,
+    "workout_sets": []
+  },
+  {
+    "type": "isolated",
+    "group": "плечи",
+    "description": "Армейский жим в смите 4x12",
+    "order": 1,
+    "workout_sets": []
+  },
+  {
+    "type": "isolated",
+    "group": "плечи",
+    "description": "Вперед через стороны 4x12",
+    "order": 1,
+    "workout_sets": [],
+    "for_home": true
+  },
+  {
+    "type": "isolated",
+    "group": "плечи",
+    "description": "Средняя + передняя в кроссе 4x12",
+    "order": 1,
+    "workout_sets": []
+  }
+]

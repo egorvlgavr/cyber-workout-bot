@@ -1,0 +1,242 @@
+[
+  {
+    "type": "base",
+    "group": "ноги",
+    "description": "Присяд: 4x10",
+    "order": 0,
+    "workout_sets": [
+      "L2",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7",
+      "L8",
+      "L9",
+      "L10",
+      "L11",
+      "L12",
+      "L13",
+      "L14",
+      "L15",
+      "L16",
+      "L17",
+      "L19",
+      "L20"
+    ],
+    "for_home": true
+  },
+  {
+    "type": "base",
+    "group": "ноги",
+    "description": "Присяд в Смите: 4x10",
+    "order": 0,
+    "workout_sets": [
+      "L1",
+      "L3",
+      "L7"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "ноги",
+    "description": "Приседания на одной ноге у стенки: 4х10",
+    "order": 1,
+    "workout_sets": [
+      "L1",
+      "L13",
+      "L14",
+      "L18",
+      "L20"
+    ],
+    "for_home": true
+  },
+  {
+    "type": "isolated",
+    "group": "ноги",
+    "description": "Платформа: 4x10",
+    "order": 1,
+    "workout_sets": [
+      "L1",
+      "L3",
+      "L5",
+      "L7",
+      "L8",
+      "L9",
+      "L10",
+      "L14",
+      "L15",
+      "L16",
+      "L17",
+      "L18",
+      "L20"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "ноги",
+    "description": "Разгибания: 4х15",
+    "order": 2,
+    "workout_sets": [
+      "L1",
+      "L3",
+      "L4",
+      "L5",
+      "L6",
+      "L7",
+      "L8",
+      "L12",
+      "L13",
+      "L15",
+      "L16",
+      "L18"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "ноги",
+    "description": "Сгибание ног сидя: 4х15",
+    "order": 2,
+    "workout_sets": [
+      "L1",
+      "L9"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "ноги",
+    "description": "Выпады в смите: 4х10",
+    "order": 1,
+    "workout_sets": [
+      "L2",
+      "L6",
+      "L18"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "ноги",
+    "description": "Гакк: 4х12",
+    "order": 1,
+    "workout_sets": [
+      "L2",
+      "L5",
+      "L6",
+      "L10",
+      "L13",
+      "L17",
+      "L19",
+      "L20"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "ноги",
+    "description": "Обратный Гакк: 4х12",
+    "order": 1,
+    "workout_sets": [
+      "L8",
+      "L11",
+      "L14"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "ноги",
+    "description": "Гакк на икры: 4х12",
+    "order": 2,
+    "workout_sets": [
+      "L17",
+      "L19",
+      "L20"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "ноги",
+    "description": "Икры в тренажере: 4х15",
+    "order": 2,
+    "workout_sets": [
+      "L2"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "ноги",
+    "description": "Сиси присед: 3х12",
+    "order": 2,
+    "workout_sets": [
+      "L3"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "ноги",
+    "description": "Фронтальный присед: 3х12",
+    "order": 1,
+    "workout_sets": [
+      "L4"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "ноги",
+    "description": "Фронтальный присед в Смитте: 3х12",
+    "order": 1,
+    "workout_sets": [
+      "L9",
+      "L11"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "ноги",
+    "description": "Сгибание лежа: 4х15",
+    "order": 2,
+    "workout_sets": [
+      "L4",
+      "L5",
+      "L12",
+      "L16"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "ноги",
+    "description": "Разведение: 4х12",
+    "order": 2,
+    "workout_sets": [
+      "L10",
+      "L11"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "ноги",
+    "description": "Болгарские приседания: 3х10",
+    "order": 1,
+    "workout_sets": [
+      "L12"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "ноги",
+    "description": "Выпады туда-обратно: х3",
+    "order": 2,
+    "workout_sets": [
+      "L15",
+      "L19"
+    ],
+    "for_home": true
+  },
+  {
+    "type": "isolated",
+    "group": "ноги",
+    "description": "Прыжки на тумбу: 3х8",
+    "order": 2,
+    "workout_sets": [
+      "L18"
+    ]
+  }
+]

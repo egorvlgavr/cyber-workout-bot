@@ -26,7 +26,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 HELP_WITH_SUPPORTED_WORKOUTS = "Используй комманду /workout [ноги|спина|грудь] (+|,) (руки|плечи) (кол-во упражнений)"
-DEFAULT_NUM_WORKOUTS = 5
+DEFAULT_NUM_WORKOUTS = 4
 
 
 # Define a few command handlers. These usually take the two arguments update and

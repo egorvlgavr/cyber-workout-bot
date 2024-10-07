@@ -1,0 +1,230 @@
+[
+  {
+    "type": "base",
+    "group": "грудь",
+    "order": 0,
+    "description": "Жим лёжа: 4x10",
+    "workout_sets": [
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7",
+      "T8",
+      "T9",
+      "T10"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "грудь",
+    "description": "Жим на наклонной скамье 4х8",
+    "order": 1,
+    "workout_sets": [
+      "T6",
+      "T8",
+      "T10"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "грудь",
+    "description": "Жим на скамье 4х10",
+    "order": 1,
+    "workout_sets": [
+      "T1"
+    ],
+    "for_home": true
+  },
+  {
+    "type": "isolated",
+    "group": "грудь",
+    "description": "Жим в смитте 4х12",
+    "order": 1,
+    "workout_sets": [
+      "T2"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "грудь",
+    "description": "Жим гантелей на наклонной скамье 4x10",
+    "order": 1,
+    "workout_sets": [
+      "T4",
+      "T6",
+      "T7"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "грудь",
+    "description": "Разведение гантелей на скамье 4x10",
+    "order": 2,
+    "workout_sets": [
+      "T4",
+      "T6",
+      "T9",
+      "T10"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "грудь",
+    "description": "Разведение гантелей на скамье + жим узким 4x10",
+    "order": 2,
+    "workout_sets": [
+      "T2",
+      "T5"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "грудь",
+    "description": "Кросс на грудь 4x15",
+    "order": 2,
+    "workout_sets": [
+      "T2",
+      "T3",
+      "T7"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "руки",
+    "description": "Французский жим + жим узким + подьем на бицепс 4x12",
+    "order": 3,
+    "workout_sets": [
+      "T3",
+      "T9"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "руки",
+    "description": "Кросс трицепс + бицепс 4x15",
+    "order": 3,
+    "workout_sets": [
+      "T4",
+      "T7",
+      "T8",
+      "T12"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "грудь",
+    "description": "Хаммер лежа 4х12",
+    "order": 1,
+    "workout_sets": [
+      "T1",
+      "T8"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "грудь",
+    "description": "Хаммер горизонтальный 4х12",
+    "order": 1,
+    "workout_sets": [
+      "T5",
+      "T7"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "грудь",
+    "description": "Хаммер верхний 4х12",
+    "order": 1,
+    "workout_sets": [
+      "T3",
+      "T9"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "грудь",
+    "description": "Бабочка 4х12",
+    "order": 2,
+    "workout_sets": [
+      "T1",
+      "T5"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "руки",
+    "description": "Гравитрон брусья 4х12 + Тренажер на бицепс 4х12",
+    "order": 3,
+    "workout_sets": [
+      "T1",
+      "T5"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "руки",
+    "description": "Обратные отжимания 4х12 + Штанга на бицепс 4х12",
+    "order": 3,
+    "workout_sets": [
+      "T10"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "грудь",
+    "description": "Брусья 4x10",
+    "order": 0,
+    "workout_sets": [
+      "T11"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "руки",
+    "description": "Штанга на бицепс 4х12",
+    "order": 2,
+    "workout_sets": [
+      "T11",
+      "T12"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "руки",
+    "description": "Французский жим + бицепс скот 4х15",
+    "order": 3,
+    "workout_sets": [
+      "T11"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "грудь",
+    "description": "Обратные отжимания 4х12 + Молотки 4х15",
+    "order": 3,
+    "workout_sets": [
+      "T11"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "грудь",
+    "description": "Жим узким 4x12",
+    "order": 0,
+    "workout_sets": [
+      "T12"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "руки",
+    "description": "Обратные отжимания + бицепс скот 4х12",
+    "order": 3,
+    "workout_sets": [
+      "T12"
+    ]
+  }
+]

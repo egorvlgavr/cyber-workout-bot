@@ -1,0 +1,215 @@
+[
+  {
+    "type": "base",
+    "group": "спина",
+    "description": "Тяга классическая: 4x10",
+    "order": 0,
+    "workout_sets": [
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B7",
+      "B8",
+      "B9",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15"
+    ]
+  },
+  {
+    "type": "base",
+    "group": "спина",
+    "description": "Подтягивания: 4x10",
+    "order": 0,
+    "workout_sets": [
+      "B10"
+    ],
+    "for_home": true
+  },
+  {
+    "type": "isolated",
+    "group": "спина",
+    "description": "Подтягивания c резиной: 4x12",
+    "order": 0,
+    "workout_sets": [
+      "B12"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "спина",
+    "description": "Тяга штанги в наклоне: 4x10",
+    "order": 1,
+    "workout_sets": [
+      "B1",
+      "B3",
+      "B5"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "спина",
+    "description": "Тяга 2-х гантелей: 4x12",
+    "order": 2,
+    "workout_sets": [
+      "B1",
+      "B2",
+      "B4",
+      "B7",
+      "B8",
+      "B10",
+      "B12"
+    ],
+    "for_home": true
+  },
+  {
+    "type": "isolated",
+    "group": "спина",
+    "description": "Подтягивания гравитрон: 4x12",
+    "order": 2,
+    "workout_sets": [
+      "B2",
+      "B4",
+      "B11",
+      "B13"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "спина",
+    "description": "Пушдаун в кроссе: 4x12",
+    "order": 2,
+    "workout_sets": [
+      "B1",
+      "B9"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "спина",
+    "description": "Хаммер на трапеции: 4x12",
+    "order": 3,
+    "workout_sets": [
+      "B1"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "спина",
+    "description": "Тяга Т-штанги: 4х10",
+    "order": 1,
+    "workout_sets": [
+      "B8",
+      "B9",
+      "B14",
+      "B15"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "спина",
+    "description": "Нижний блок: 4х12",
+    "order": 2,
+    "workout_sets": [
+      "B2",
+      "B3",
+      "B4",
+      "B7",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "спина",
+    "description": "Верхний блок: 4х10",
+    "order": 2,
+    "workout_sets": [
+      "B3",
+      "B7",
+      "B8",
+      "B15"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "спина",
+    "description": "Верхний блок 2 ручки: 4х10",
+    "order": 2,
+    "workout_sets": [
+      "B5"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "спина",
+    "description": "Кросс на спину: 4х12",
+    "order": 2,
+    "workout_sets": [
+      "B3",
+      "B6",
+      "B7",
+      "B8",
+      "B11"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "спина",
+    "description": "Хаммер на низ широчайшей: 4х12",
+    "order": 2,
+    "workout_sets": [
+      "B4"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "спина",
+    "description": "Тяга хаммера как гантели: 4х12",
+    "order": 2,
+    "workout_sets": [
+      "B5",
+      "B9",
+      "B10"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "спина",
+    "description": "Тяга хаммера как гантели одной рукой: 4х10",
+    "order": 2,
+    "workout_sets": [
+      "B11"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "спина",
+    "description": "Тяга хаммера верхнего: 4х10",
+    "order": 2,
+    "workout_sets": [
+      "B14"
+    ]
+  },
+  {
+    "type": "isolated",
+    "group": "спина",
+    "description": "Гиперэкстензия: 4х10",
+    "order": 3,
+    "workout_sets": [
+      "B2",
+      "B10",
+      "B12",
+      "B13",
+      "B14"
+    ]
+  }
+]
